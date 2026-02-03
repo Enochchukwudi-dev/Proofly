@@ -93,7 +93,7 @@ export default function HeroSection() {
                                         asChild
                                         size="lg"
                                         variant="ghost"
-                                        className="h-10.5 rounded-xl px-5 text-base">
+                                        className="h-10.5 rounded-xl px-5 text-base border border-gray-600">
                                         <Link href="#link">
                                             <span className="text-nowrap">See How It Works</span>
                                         </Link>

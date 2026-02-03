@@ -63,7 +63,7 @@ export const LogoIcon = ({ className, uniColor }: { className?: string; uniColor
 export const LogoStroke = ({ className }: { className?: string }) => {
     return (
         <svg
-            className={cn('size-7 w-7', className)}
+            className={cn('text-foreground size-7 w-7', className)}
             viewBox="0 0 160 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@ export const LogoStroke = ({ className }: { className?: string }) => {
                 fontFamily="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
                 fontSize="18"
                 fontWeight="700"
-                fill="none"
+                fill="currentColor"
                 stroke="currentColor"
                 strokeWidth={0.6}
             >
