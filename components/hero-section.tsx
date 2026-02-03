@@ -6,8 +6,10 @@ import Image from 'next/image'
 import { TextEffect } from '@/components/ui/text-effect'
 import { AnimatedGroup } from '@/components/ui/animated-group'
 import { HeroHeader } from './header'
+import { Variants, Transition } from "framer-motion";
 
-const transitionVariants = {
+
+const transitionVariants: { item: Variants } = {
     item: {
         hidden: {
             opacity: 0,
@@ -22,7 +24,7 @@ const transitionVariants = {
                 type: 'spring',
                 bounce: 0.3,
                 duration: 1.5,
-            },
+            } as Transition,
         },
     },
 }
