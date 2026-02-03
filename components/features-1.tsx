@@ -7,8 +7,8 @@ export default function Features() {
         <section className="bg-zinc-50 py-16 md:py-32 dark:bg-transparent">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Built to cover your needs</h2>
-                    <p className="mt-4">Libero sapiente aliquam quibusdam aspernatur, praesentium iusto repellendus.</p>
+                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Built to Fit How Your Laundry Works</h2>
+                    <p className="mt-4">Every feature is designed around real laundry operations helping you manage orders, staff, and customers with ease.</p>
                 </div>
                 <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
                     <Card className="group shadow-zinc-950/5">
@@ -20,11 +20,11 @@ export default function Features() {
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Customizable</h3>
+                            <h3 className="mt-6 font-bold">Customizable to Your Workflow</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="text-sm">Extensive customization options, allowing you to tailor every aspect to meet your specific needs.</p>
+                            <p className="text-sm text-gray-400">Set services, pricing, and order stages that match how you operate.</p>
                         </CardContent>
                     </Card>
 
@@ -37,11 +37,11 @@ export default function Features() {
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">You have full control</h3>
+                            <h3 className="mt-6 font-bold">Full Control & Clear Roles</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">From design elements to functionality, you have complete control to create a unique and personalized experience.</p>
+                            <p className="mt-3 text-sm text-gray-400">Manage staff permissions, track actions, and maintain full transparency.</p>
                         </CardContent>
                     </Card>
 
@@ -54,11 +54,11 @@ export default function Features() {
                                 />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Powered By AI</h3>
+                            <h3 className="mt-6 font-bold">Powered by Smart Automation</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">Elements to functionality, you have complete control to create a unique experience.</p>
+                            <p className="mt-3 text-sm text-gray-400">Automate updates, notifications, and routine tasks to save time and reduce errors.</p>
                         </CardContent>
                     </Card>
                 </div>

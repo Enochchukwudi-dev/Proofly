@@ -47,8 +47,8 @@ export default function IntegrationsSection() {
                         </div>
                     </div>
                     <div className="mx-auto mt-12 max-w-lg space-y-6 text-center">
-                        <h2 className="text-balance text-3xl font-semibold md:text-4xl">Integrate with your favorite tools</h2>
-                        <p className="text-muted-foreground">Connect seamlessly with popular platforms and services to enhance your workflow.</p>
+                        <h2 className="text-balance text-3xl font-semibold md:text-4xl">Stay Aligned Across Staff and Management</h2>
+                        <p className="text-muted-foreground">Track staff activities, monitor order progress, and ensure every task is completed on time — all from one transparent dashboard.</p>
 
                         <Button
                             variant="outline"
