@@ -51,7 +51,7 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     as="h1"
                                     className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16">
-                                    Build and Ship 10x faster with NS
+                                    All-In-One Software for Modern Laundry Businesses
                                 </TextEffect>
                                 <TextEffect
                                     per="line"
@@ -60,7 +60,7 @@ export default function HeroSection() {
                                     delay={0.5}
                                     as="p"
                                     className="mt-8 max-w-2xl text-pretty text-lg">
-                                    Tailwindcss highly customizable components for building modern websites and applications that look and feel the way you mean it.
+                                   From pickup to delivery, manage orders, payments, and customers effortlessly — all in one dashboard
                                 </TextEffect>
 
                                 <AnimatedGroup
@@ -84,7 +84,7 @@ export default function HeroSection() {
                                             size="lg"
                                             className="rounded-xl px-5 text-base">
                                             <Link href="#link">
-                                                <span className="text-nowrap">Start Building</span>
+                                                <span className="text-nowrap">Get Started Free</span>
                                             </Link>
                                         </Button>
                                     </div>
@@ -95,10 +95,27 @@ export default function HeroSection() {
                                         variant="ghost"
                                         className="h-10.5 rounded-xl px-5 text-base">
                                         <Link href="#link">
-                                            <span className="text-nowrap">Request a demo</span>
+                                            <span className="text-nowrap">See How It Works</span>
                                         </Link>
                                     </Button>
                                 </AnimatedGroup>
+
+                                <ul className="mt-4 flex flex-col items-center md:mt-10 mt-5 gap-3 text-sm text-muted-foreground sm:flex-row sm:gap-6">
+                                    <li className="flex items-center gap-2">
+                                        <Image src="/tick.svg" alt="" width={18} height={18} className="size-4 text-accent" />
+                                        <span>Built for growing laundry businesses</span>
+                                       
+                                    </li>
+                                    <li className="flex items-center gap-2 ">
+                                        <Image src="/tick.svg" alt="" width={18} height={18} className="size-4 text-accent" />
+                                        <span>No credit card required</span>
+                                       
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <Image src="/tick.svg" alt="" width={18} height={18} className="size-4 text-accent" />
+                                        <span>Launch in minutes</span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <AnimatedGroup
