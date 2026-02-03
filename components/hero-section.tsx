@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import Link from 'next/link'
 import { ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -30,6 +31,10 @@ const transitionVariants: { item: Variants } = {
 }
 
 export default function HeroSection() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <HeroHeader />
